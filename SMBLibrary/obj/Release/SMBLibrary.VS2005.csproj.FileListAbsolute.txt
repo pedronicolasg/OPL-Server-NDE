@@ -1,0 +1,18 @@
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\bin\Release\SMBLibrary.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\bin\Release\SMBLibrary.pdb
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\bin\Release\Utilities.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\bin\Release\Utilities.pdb
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.VS2005.csproj.AssemblyReference.cache
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.VS2005.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.VS2005.csproj.CopyComplete
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\bin\Release\SMBLibrary.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\bin\Release\SMBLibrary.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\bin\Release\Utilities.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\bin\Release\Utilities.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.VS2005.csproj.AssemblyReference.cache
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.VS2005.csproj.CoreCompileInputs.cache
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.VS2005.csproj.CopyComplete
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary\obj\Release\SMBLibrary.pdb

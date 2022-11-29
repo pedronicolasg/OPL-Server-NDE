@@ -1,0 +1,12 @@
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\bin\Release\Utilities.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\bin\Release\Utilities.pdb
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\obj\Release\Utilities.VS2005.csproj.AssemblyReference.cache
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\obj\Release\Utilities.VS2005.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\obj\Release\Utilities.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\obj\Release\Utilities.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\bin\Release\Utilities.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\bin\Release\Utilities.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\obj\Release\Utilities.VS2005.csproj.AssemblyReference.cache
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\obj\Release\Utilities.VS2005.csproj.CoreCompileInputs.cache
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\obj\Release\Utilities.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\Utilities\obj\Release\Utilities.pdb

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="OPLServer.exe" version="1.0.0.0" publicKeyToken="c6b4c5b2cf79db55" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="OPLServer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="OPLServer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pt-BR\mscorlib.resources.dll" size="307200">
+      <assemblyIdentity name="mscorlib.resources" version="2.0.0.0" publicKeyToken="B77A5C561934E089" language="pt-BR" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>JRkUkFvFRxiTpYCojvGkus3SFdU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OPLServer.exe" size="767440">
+      <assemblyIdentity name="OPLServer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>A0ywBxJf7iWrC+SRSenrJenSJJ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMBLibrary.dll" size="380928">
+      <assemblyIdentity name="SMBLibrary" version="1.4.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1eqfnHlVdFoUdHkAfBj+rADzrec=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMBLibrary.Win32.dll" size="26624">
+      <assemblyIdentity name="SMBLibrary.Win32" version="1.4.2.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lJlUYRGBsKoya2dsFjdjS296jes=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Utilities.dll" size="30208">
+      <assemblyIdentity name="Utilities" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>h1q+mtppyW3yNKXnWq8H04UDEdE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="178957">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vQq6TOZxfzeUWEcmqLDhRgpcMvw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon64.ico" size="178957">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vQq6TOZxfzeUWEcmqLDhRgpcMvw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NICOLASDEV\Pedro Nícolas" issuerKeyHash="2d0d97acf0c988f5141e0d0c7a4aba84d1d88828" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>acrarAbMfLQjGcTu93V4YFhEc2Y=</DigestValue></Reference></SignedInfo><SignatureValue>kAvCU35xFmz5ArP4mVwQTU7pgPzY2THSerzH1hyaDrCM4TadD+xzYRc8Nqw2aAX9gbq+hzEQea79egfZ57mBVBr3vMHPdQzOOl8+TCWe6LstrHY3rjcpRquD6OUa2r1P8ioai3yCJaTHSi2PoM6+b95pXb0vPDNT7fzjOq6HU4I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>weByAYVQPj6vBsUJgSStz37XiIRwEem2gNWmPfOCfacsAKbbjEVDsvyZRWKaA9ZZMtK++7KR1CfSUgjdkWr8rFiJVBXUJqihOpQ5RW5ZRyyfh6yldT5SugC6GY5noL4v6mXX50n+J1yRRciC8Xjkxxo59M7mV2KjcgtJFluQ8zk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="66734458607875f7eec41923b47ccc06acdaca69" Description="" Url=""><as:assemblyIdentity name="OPLServer.exe" version="1.0.0.0" publicKeyToken="c6b4c5b2cf79db55" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NICOLASDEV\Pedro Nícolas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>G90nhJyhBIpeBgGmYsJKTUlbXcE=</DigestValue></Reference></SignedInfo><SignatureValue>kwcC9WNO86IFs+6nbddkX2R3nqkZxxRxoess/SI8e0kWx4/KqUTORpUTuHtx843HlLwCz5Brjzc0hFkadvl85VpLOjtLuNrsPiN66bPcp/eAw+qxAKl90ADAxlCvAoL3OecQjU5GpgZpxqLIMJWAFPyBjftO4X1ItS8eLMIygNc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>weByAYVQPj6vBsUJgSStz37XiIRwEem2gNWmPfOCfacsAKbbjEVDsvyZRWKaA9ZZMtK++7KR1CfSUgjdkWr8rFiJVBXUJqihOpQ5RW5ZRyyfh6yldT5SugC6GY5noL4v6mXX50n+J1yRRciC8Xjkxxo59M7mV2KjcgtJFluQ8zk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQatRH1Zy6tqBAzNg/P5XuGDANBgkqhkiG9w0BAQUFADA7MTkwNwYDVQQDHjAATgBJAEMATwBMAEEAUwBEAEUAVgBcAFAAZQBkAHIAbwAgAE4A7QBjAG8AbABhAHMwHhcNMjIxMDI0MTkyOTA2WhcNMjMxMDI1MDEyOTA2WjA7MTkwNwYDVQQDHjAATgBJAEMATwBMAEEAUwBEAEUAVgBcAFAAZQBkAHIAbwAgAE4A7QBjAG8AbABhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMHgcgGFUD4+rwbFCYEkrc9+14iEcBHptoDVpj3zgn2nLACm24xFQ7L8mUVimgPWWTLSvvuykdQn0lII3ZFq/KxYiVQV1CaooTqUOUVuWUcsn4espXU+UroAuhmOZ6C+L+pl1+dJ/idckUXIgvF45McaOfTO5ldio3ILSRZbkPM5AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAHlKZ1qUp/jA3n4L6ClIXx3CyFwlJyWMSVj6j85F64gG5x9wv57DjC3YwdbjGSFFQwL1DtJU5HbT88EWaAKdemks2TTgTo5FSpHBctGpr315+2JdFoAwzQZPSsd5KJRfJw1QIzA5xLpWAbsbA+ZBvJpLewZvZmpjQbk8xROgh1U8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

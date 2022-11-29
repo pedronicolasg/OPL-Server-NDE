@@ -1,0 +1,22 @@
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\SMBLibrary.Win32.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\SMBLibrary.Win32.pdb
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\SMBLibrary.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\Utilities.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\SMBLibrary.pdb
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\Utilities.pdb
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.VS2005.csproj.AssemblyReference.cache
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.VS2005.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.VS2005.csproj.CopyComplete
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.dll
+C:\Users\Pedro Nícolas\Downloads\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\SMBLibrary.Win32.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\SMBLibrary.Win32.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\SMBLibrary.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\Utilities.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\SMBLibrary.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\bin\Release\Utilities.pdb
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.VS2005.csproj.AssemblyReference.cache
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.VS2005.csproj.CoreCompileInputs.cache
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.VS2005.csproj.CopyComplete
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.dll
+G:\Projetos\OPL-Server-master\OPL-Server-master\OPL_Server\SMBLibrary.Win32\obj\Release\SMBLibrary.Win32.pdb
