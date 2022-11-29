@@ -177,9 +177,13 @@ namespace OPLServer
             if (!silentMode)
             {
                 if (tsbServerState.Checked)
+                {
                     notifyIcon1.ShowBalloonTip(1, "OPL Server", "O servidor está EM EXECUÇÃO na porta " + serverPort, ToolTipIcon.None);
-                else
+                    notifyIcon1.Text = "OPL SERVER está Online na porta: " + serverPort;
+                } else {
                     notifyIcon1.ShowBalloonTip(1, "OPL Server", "O servidor está PARADO", ToolTipIcon.None);
+                    notifyIcon1.Text = "OPL SERVER está Offline";
+                }
             }
         }
 
@@ -601,6 +605,11 @@ namespace OPLServer
         #endregion
 
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
 
         }

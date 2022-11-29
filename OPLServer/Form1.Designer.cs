@@ -340,6 +340,7 @@
             this.tstbPort.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.tstbPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
             this.tstbPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tstbPort.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tstbPort.ForeColor = System.Drawing.SystemColors.Window;
             this.tstbPort.Name = "tstbPort";
             this.tstbPort.Size = new System.Drawing.Size(40, 25);
@@ -358,10 +359,11 @@
             // 
             // notifyIcon1
             // 
-            this.notifyIcon1.BalloonTipTitle = "OPL Server by MaRioLo";
+            this.notifyIcon1.BalloonTipTitle = "OPL Server NDE";
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "OPL Server by MaRioLo";
+            this.notifyIcon1.Text = "OPL Server NDE";
             this.notifyIcon1.DoubleClick += new System.EventHandler(this.notifyIcon1_DoubleClick);
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
             // statusStrip1
             // 
