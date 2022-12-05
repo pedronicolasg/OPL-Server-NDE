@@ -1,6 +1,7 @@
 ﻿using SMBLibrary;
 using SMBLibrary.Authentication.GSSAPI;
 using SMBLibrary.Authentication.NTLM;
+using SMBLibrary.NetBios;
 using SMBLibrary.Server;
 using SMBLibrary.Win32;
 using System;
@@ -8,8 +9,10 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Net;
+using System.Text;
 using System.Windows.Forms;
 using Utilities;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace OPLServer
 {
@@ -45,11 +48,10 @@ namespace OPLServer
         public bool logLvlTrace = true;
         public bool logLvlVerbose = false;
         public bool logLvlWarn = true;
-        
+
         #endregion
 
         #region Form Methods and GUI
-
         public Form1()
         {
             InitializeComponent();
@@ -135,6 +137,26 @@ namespace OPLServer
             Form1_Resize(sender, e);
         }
 
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void lstvwLog_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trv_files_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             m_server.Stop();
@@ -148,6 +170,7 @@ namespace OPLServer
             lstvwLog.Columns[2].Width = 80;
             lstvwLog.Columns[3].Width = (this.Width - 50) - lstvwLog.Columns[0].Width - lstvwLog.Columns[1].Width - lstvwLog.Columns[2].Width;
         }
+
 
         public void addLogList(string time, string seve, string source, string messg)
         {
@@ -183,6 +206,25 @@ namespace OPLServer
                 } else {
                     notifyIcon1.ShowBalloonTip(1, "OPL Server", "O servidor está PARADO", ToolTipIcon.None);
                     notifyIcon1.Text = "OPL SERVER está Offline";
+                }
+            }
+        }
+
+        private void tsbExportLog_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog sfd = new SaveFileDialog();
+
+            sfd.Title = "SaveFileDialog Export2File";
+            sfd.Filter = "Text File (.txt) | *.txt";
+
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                using (TextWriter tw = new StreamWriter(new FileStream(sfd.FileName, FileMode.Create), Encoding.UTF8))
+                {
+                    foreach (ListViewItem item in lstvwLog.Items)
+                    {
+                        tw.WriteLine(item.SubItems[0].Text + "\t" + item.SubItems[1].Text + "\t" + item.SubItems[2].Text + "\t" + item.SubItems[3].Text);
+                    }
                 }
             }
         }
@@ -604,14 +646,5 @@ namespace OPLServer
 
         #endregion
 
-        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-
-        }
     }
 }

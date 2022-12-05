@@ -165,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icone.ico" />
+    <None Include="Resources\export.png" />
     <None Include="icone64.png" />
     <None Include="icone.png" />
     <None Include="Tray.png" />
