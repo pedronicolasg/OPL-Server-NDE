@@ -7,6 +7,7 @@ using SMBLibrary.Win32;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Text;
@@ -58,7 +59,7 @@ namespace OPLServer
 
             loadSettings();
 
-            tsslblStatus.ForeColor = System.Drawing.Color.White;
+            HeaderColors.colorListViewHeader(ref lstvwLog, Color.FromArgb(0, 55, 56, 63), Color.WhiteSmoke);
 
             if (!Directory.Exists(sharePath))
             {

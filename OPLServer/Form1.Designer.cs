@@ -36,21 +36,10 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.tstbPort = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.tsslblStatus = new System.Windows.Forms.ToolStripStatusLabel();
-            this.trv_files = new System.Windows.Forms.TreeView();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbToTray = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbEnableLog = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbLogFilter = new System.Windows.Forms.ToolStripSplitButton();
             this.tsbLogInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.tsbLogWarn = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,13 +48,24 @@
             this.tsbLogTrace = new System.Windows.Forms.ToolStripMenuItem();
             this.tsbLogDebug = new System.Windows.Forms.ToolStripMenuItem();
             this.tsbLogVerbose = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbAutoScroll = new System.Windows.Forms.ToolStripButton();
             this.tsbServerState = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbExportLog = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbClearLog = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbSelectFolder = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbAbout = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.tstbPort = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.tsslblStatus = new System.Windows.Forms.ToolStripStatusLabel();
+            this.trv_files = new System.Windows.Forms.TreeView();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -86,9 +86,9 @@
             this.lstvwLog.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lstvwLog.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lstvwLog.HideSelection = false;
-            this.lstvwLog.Location = new System.Drawing.Point(222, 24);
+            this.lstvwLog.Location = new System.Drawing.Point(222, 28);
             this.lstvwLog.Name = "lstvwLog";
-            this.lstvwLog.Size = new System.Drawing.Size(872, 314);
+            this.lstvwLog.Size = new System.Drawing.Size(872, 310);
             this.lstvwLog.TabIndex = 2;
             this.lstvwLog.UseCompatibleStateImageBehavior = false;
             this.lstvwLog.View = System.Windows.Forms.View.Details;
@@ -142,103 +142,6 @@
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
             // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
-            // 
-            // tstbPort
-            // 
-            this.tstbPort.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.tstbPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
-            this.tstbPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tstbPort.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tstbPort.ForeColor = System.Drawing.SystemColors.Window;
-            this.tstbPort.Name = "tstbPort";
-            this.tstbPort.Size = new System.Drawing.Size(40, 23);
-            this.tstbPort.Text = "1024";
-            this.tstbPort.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tstbPort.ToolTipText = "Server Port";
-            this.tstbPort.Leave += new System.EventHandler(this.tstbPort_Leave);
-            // 
-            // toolStripLabel1
-            // 
-            this.toolStripLabel1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripLabel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(38, 15);
-            this.toolStripLabel1.Text = "Porta:";
-            // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.BalloonTipTitle = "OPL Server NDE";
-            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "OPL Server NDE";
-            this.notifyIcon1.DoubleClick += new System.EventHandler(this.notifyIcon1_DoubleClick);
-            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(35)))), ((int)(((byte)(37)))));
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsslblStatus});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 339);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1094, 22);
-            this.statusStrip1.TabIndex = 4;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // tsslblStatus
-            // 
-            this.tsslblStatus.ForeColor = System.Drawing.SystemColors.Window;
-            this.tsslblStatus.Name = "tsslblStatus";
-            this.tsslblStatus.Size = new System.Drawing.Size(0, 17);
-            // 
-            // trv_files
-            // 
-            this.trv_files.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.trv_files.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            this.trv_files.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.trv_files.ForeColor = System.Drawing.SystemColors.Window;
-            this.trv_files.LineColor = System.Drawing.Color.White;
-            this.trv_files.Location = new System.Drawing.Point(1, 24);
-            this.trv_files.Name = "trv_files";
-            this.trv_files.Size = new System.Drawing.Size(221, 314);
-            this.trv_files.TabIndex = 5;
-            this.trv_files.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trv_files_AfterSelect);
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
-            // 
             // tsbToTray
             // 
             this.tsbToTray.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
@@ -250,6 +153,12 @@
             this.tsbToTray.Text = "Minimize to System Tray";
             this.tsbToTray.ToolTipText = "Minimize to System Tray";
             this.tsbToTray.Click += new System.EventHandler(this.tsbToTray_Click);
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
             // 
             // tsbEnableLog
             // 
@@ -263,6 +172,11 @@
             this.tsbEnableLog.Size = new System.Drawing.Size(81, 22);
             this.tsbEnableLog.Text = "Ativar Log";
             this.tsbEnableLog.CheckedChanged += new System.EventHandler(this.tsbEnableLog_CheckedChanged);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // tsbLogFilter
             // 
@@ -347,6 +261,11 @@
             this.tsbLogVerbose.Text = "Detalhado";
             this.tsbLogVerbose.CheckedChanged += new System.EventHandler(this.tsbLogVerbose_CheckedChanged);
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
             // tsbAutoScroll
             // 
             this.tsbAutoScroll.CheckOnClick = true;
@@ -370,6 +289,11 @@
             this.tsbServerState.Text = "O servidor está parado (pressione para iniciar)";
             this.tsbServerState.CheckedChanged += new System.EventHandler(this.tsbServerState_CheckedChanged);
             // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            // 
             // tsbExportLog
             // 
             this.tsbExportLog.ForeColor = System.Drawing.SystemColors.Control;
@@ -379,6 +303,11 @@
             this.tsbExportLog.Size = new System.Drawing.Size(94, 22);
             this.tsbExportLog.Text = "Exportar Log";
             this.tsbExportLog.Click += new System.EventHandler(this.tsbExportLog_Click);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
             // 
             // tsbClearLog
             // 
@@ -390,6 +319,11 @@
             this.tsbClearLog.Text = "Limpar Log";
             this.tsbClearLog.Click += new System.EventHandler(this.tsbClearLog_Click);
             // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
             // tsbSelectFolder
             // 
             this.tsbSelectFolder.ForeColor = System.Drawing.SystemColors.Control;
@@ -399,6 +333,11 @@
             this.tsbSelectFolder.Size = new System.Drawing.Size(112, 22);
             this.tsbSelectFolder.Text = "Selecionar pasta";
             this.tsbSelectFolder.Click += new System.EventHandler(this.tsbSelectFolder_Click);
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
             // 
             // tsbAbout
             // 
@@ -415,6 +354,67 @@
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
             this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
+            // 
+            // tstbPort
+            // 
+            this.tstbPort.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.tstbPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(55)))));
+            this.tstbPort.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tstbPort.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tstbPort.ForeColor = System.Drawing.SystemColors.Window;
+            this.tstbPort.Name = "tstbPort";
+            this.tstbPort.Size = new System.Drawing.Size(40, 25);
+            this.tstbPort.Text = "1024";
+            this.tstbPort.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tstbPort.ToolTipText = "Server Port";
+            this.tstbPort.Leave += new System.EventHandler(this.tstbPort_Leave);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripLabel1.ForeColor = System.Drawing.SystemColors.Control;
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(38, 22);
+            this.toolStripLabel1.Text = "Porta:";
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.BalloonTipTitle = "OPL Server NDE";
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "OPL Server NDE";
+            this.notifyIcon1.DoubleClick += new System.EventHandler(this.notifyIcon1_DoubleClick);
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(35)))), ((int)(((byte)(37)))));
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsslblStatus});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 339);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1094, 22);
+            this.statusStrip1.TabIndex = 4;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // tsslblStatus
+            // 
+            this.tsslblStatus.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.tsslblStatus.Name = "tsslblStatus";
+            this.tsslblStatus.Size = new System.Drawing.Size(0, 17);
+            // 
+            // trv_files
+            // 
+            this.trv_files.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.trv_files.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
+            this.trv_files.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.trv_files.ForeColor = System.Drawing.SystemColors.Window;
+            this.trv_files.LineColor = System.Drawing.Color.White;
+            this.trv_files.Location = new System.Drawing.Point(1, 24);
+            this.trv_files.Name = "trv_files";
+            this.trv_files.Size = new System.Drawing.Size(221, 314);
+            this.trv_files.TabIndex = 5;
+            this.trv_files.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trv_files_AfterSelect);
             // 
             // Form1
             // 
